@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8C061BE7-DEE0-482B-B597-2E055ACBA36E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1EB2BC6A-9752-4427-9839-9F20800134B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harrison314.PassiveMQ", "src\Harrison314.PassiveMQ\Harrison314.PassiveMQ.csproj", "{E7707BAD-277E-4EB6-96A9-266D8A8A996D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Harrison314.PassiveMQ.Client", "src\Harrison314.PassiveMQ.Client\Harrison314.PassiveMQ.Client.csproj", "{DA83BEEA-2955-406B-B919-460E5960EA99}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Harrison314.PassiveMQ.Database", "src\Harrison314.PassiveMQ.Database\Harrison314.PassiveMQ.Database.sqlproj", "{50B8AC96-1112-49DF-A892-21E05D3DD5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harrison314.PassiveMQ.IntergartionTest", "test\Harrison314.PassiveMQ.IntergartionTest\Harrison314.PassiveMQ.IntergartionTest.csproj", "{61FA180B-F5AD-4CC1-9DF2-DF450C4F6410}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7707BAD-277E-4EB6-96A9-266D8A8A996D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7707BAD-277E-4EB6-96A9-266D8A8A996D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7707BAD-277E-4EB6-96A9-266D8A8A996D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7707BAD-277E-4EB6-96A9-266D8A8A996D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA83BEEA-2955-406B-B919-460E5960EA99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA83BEEA-2955-406B-B919-460E5960EA99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA83BEEA-2955-406B-B919-460E5960EA99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA83BEEA-2955-406B-B919-460E5960EA99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B8AC96-1112-49DF-A892-21E05D3DD5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B8AC96-1112-49DF-A892-21E05D3DD5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B8AC96-1112-49DF-A892-21E05D3DD5E0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{50B8AC96-1112-49DF-A892-21E05D3DD5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B8AC96-1112-49DF-A892-21E05D3DD5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B8AC96-1112-49DF-A892-21E05D3DD5E0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{61FA180B-F5AD-4CC1-9DF2-DF450C4F6410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61FA180B-F5AD-4CC1-9DF2-DF450C4F6410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61FA180B-F5AD-4CC1-9DF2-DF450C4F6410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61FA180B-F5AD-4CC1-9DF2-DF450C4F6410}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E7707BAD-277E-4EB6-96A9-266D8A8A996D} = {8C061BE7-DEE0-482B-B597-2E055ACBA36E}
+		{DA83BEEA-2955-406B-B919-460E5960EA99} = {8C061BE7-DEE0-482B-B597-2E055ACBA36E}
+		{50B8AC96-1112-49DF-A892-21E05D3DD5E0} = {8C061BE7-DEE0-482B-B597-2E055ACBA36E}
+		{61FA180B-F5AD-4CC1-9DF2-DF450C4F6410} = {1EB2BC6A-9752-4427-9839-9F20800134B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01A6F744-ADF3-4C3F-80A0-8FAF5F61E04D}
+	EndGlobalSection
+EndGlobal
