@@ -7,7 +7,8 @@ uses hints available in T-SQL to make each operation atomic.
 
 _PassiveMQ_ is designed to integrate intranet systems in enviroments where non-HTTP protocols is not allowed on the network.
 
-API Example:
+## _Harrison314.PassiveMQ.Client_ API Example
+
 
 Send message to queueu:
 ```cs
