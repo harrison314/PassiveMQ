@@ -1,6 +1,6 @@
 # Passive MQ
 
-**Passive message qeueu** is _push-pull_ message qeueu like [Azure Queue storage](https://docs.microsoft.com/en-us/azure/storage/queues/storage-dotnet-how-to-use-queues).
+**Passive message queue** is _push-pull_ message queue like [Azure Queue storage](https://docs.microsoft.com/en-us/azure/storage/queues/storage-dotnet-how-to-use-queues).
 It is a simple implementation based on _ASP.Net Core 3.1_ and _MS SQL Server_.
 For optimized performance and safety (race conditions)
 uses hints available in T-SQL to make each operation atomic.
@@ -10,7 +10,7 @@ _PassiveMQ_ is designed to integrate intranet systems in enviroments where non-H
 ## _Harrison314.PassiveMQ.Client_ API Example
 
 
-Send message to queueu:
+Send message to quueue:
 ```cs
 PassiveMqAccount account = PassiveMqAccount.Parse("Endpoint=http://localhost:5586");
 PassiveMqQueuClient client = this.Account.CreateQueueClient("myTestQueue");
@@ -36,7 +36,7 @@ for (; ;)
      else
      {
          ProcessMessage(message); // processing with duration less than 5 seconds
-         await client.DeleteMessage(message); // delete message from qeueu
+         await client.DeleteMessage(message); // delete message from queue
      }
 }
 ```
