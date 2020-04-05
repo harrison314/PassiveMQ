@@ -13,7 +13,7 @@ _PassiveMQ_ is designed to integrate intranet systems in enviroments where non-H
 Send message to quueue:
 ```cs
 PassiveMqAccount account = PassiveMqAccount.Parse("Endpoint=http://localhost:5586");
-PassiveMqQueuClient client = this.Account.CreateQueueClient("myTestQueue");
+PassiveMqQueuClient client = account.CreateQueueClient("myTestQueue");
 
 await client.CrateIfNotExists();
 
@@ -24,7 +24,7 @@ await client.AddMessage(new MqCreateMessage(new byte[]{ 0, 1 , 2 , 3 }));
 Processing messages in loop:
 ```cs
 PassiveMqAccount account = PassiveMqAccount.Parse("Endpoint=http://localhost:5586");
-PassiveMqQueuClient client = this.Account.CreateQueueClient("myTestQueue");
+PassiveMqQueuClient client = account.CreateQueueClient("myTestQueue");
 
 for (; ;)
 {
